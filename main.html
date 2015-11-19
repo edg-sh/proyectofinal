@@ -1,0 +1,48 @@
+<html>
+<head>
+        <title>Proyecto Final</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <script src="funciones.js"></script>
+        <link href="estilos.css" type="text/css" rel="stylesheet">
+</head>
+    
+<body id="bIndex">
+        <div id="header">
+            <a href="lugares.html">
+                <img id="saved" src="img/izq.png">
+            </a>
+            <img id="bGuard" onclick="guardar();" src="img/guardar.png">
+            <a href="main.html">
+                <img id="actualizar" src="img/update.png">
+            </a>
+            <a href="login.html">
+                <img id="cerrar" src="img/exit.png">
+            </a>
+            <button id="restablecer" onclick="restablecer();">LIMPIAR</button>
+            <p id="title"><i>:P-FOOD</i></p>
+        </div>
+    
+         <div id="calificar">
+             <div id="cont">
+            <input type="text" class="calif" id="lugar" placeholder="LUGAR">
+            <input type="text" class="calif" id="categ" placeholder="CATEGORIA">
+             </div>
+            <input type="number" class="calif" id="costo" placeholder="PRECIO">
+            <input type="number" class="calif" id="score" min="1" max="5" placeholder="Calificación">
+        </div>
+    
+        <p id="mensaje"></p>
+
+        <div id="map">
+        </div>
+    
+       
+</body>
+    
+<script>
+    window.addEventListener('load', inicializar, true);
+    
+</script>
+</html>

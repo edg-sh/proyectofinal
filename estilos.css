@@ -1,0 +1,264 @@
+/*reseteo*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#bIndex{
+    background-image: url(img/fondo.jpeg);
+}
+
+
+#content{
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-weight: 100;
+    float:left;
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    color: whitesmoke;
+    opacity: 87%;
+    font-weight: 100;
+    font-size: 40px;
+    
+}
+
+#content>input{
+    float:left;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 5%;  
+    height: 40px;
+    font-size: 17px;
+    border: 1px solid #47484D;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    background: rgba(255,255,255,.5)
+}
+
+button{
+    float: left;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+#content>div{
+    float:left;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgba(0,0,0,.3);
+    line-height: 40px;
+}
+
+
+#mensaje{
+    width: 70%;
+    margin-left: 15%;
+    background: rgba(0,0,0,.5);
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid rgba(255,255,255,.2);
+    font-size: 12px;
+    /*Desparecer, hacer transparente, quitar toda opacidad*/
+    opacity: 0;
+}
+
+
+
+#header{
+    width: 100%;
+    height: 7%;
+    background: #FF7212;
+    box-shadow:0 8px 2px 0 rgba(0,0,0,0.24);    
+}
+
+#title{
+    float: left;
+    font-weight: 100;
+    color: white;
+    margin-left: -40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 34px;
+    }
+
+#saved{
+    float: left;
+    margin-left: 4px;
+    width: 40px;
+    height: 40px;
+    }
+
+#bGuard{
+    float: left;
+    margin-left: 4.5px;
+    width: 40px;
+    height: 40px;
+    }
+
+#actualizar{
+    float: left;
+    margin-left: 4.5px;
+    width: 40px;
+    height: 40px;
+    }
+
+#cerrar{
+    float: left;
+    margin-left: 4.5px;
+    width: 40px;
+    height: 40px;
+    }
+
+#restablecer{
+    float: left;
+    margin-left: 5.5px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    }
+
+#return{
+    float: left;
+    margin-left: 90%;
+    width: 40px;
+    height: 40px;
+    }
+
+#map{
+    float: left;
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 20px;
+}
+
+#calificar{
+    float: left;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.calif{
+    float: left;
+    width: 55%;
+    margin-left: 10%;
+    margin-top: 2%;
+    height: 31px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#guardar{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    background-color: #f50057;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,.5);
+    float: left;
+    z-index: 99999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filas{
+    margin-top: 3%;
+    float: left;
+    border-style: solid;
+    border-color: black;
+    background-color: bisque;
+    width: 100%;
+    height: 20%;
+}
+
+.elemento{
+    float: left;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+td{
+    
+}
+
+.tb_nombre{
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.tb_precio{
+    float: left;
+    width: 20%;
+    font-weight: bold;
+    font-size: 42px;
+}
+.tb_calif{
+    float: left;
+    width: 60%;   
+}
+.tb_mapa{
+    float: left;
+    width: 20%;
+    padding-left: 4%;
+}
+
+#temp_mapa{
+    position: fixed;
+    margin-left: 12%;
+    margin-top: 25%;
+    z-index: 999999;
+    border-radius: 5px;
+	box-shadow: -5px -5px 25px 25px rgba(0,0,0,.8);
+	position: absolute;
+}
+
+#negro{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	position: absolute;
+	z-index: 99999;
+}
